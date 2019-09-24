@@ -7,7 +7,8 @@ module.exports = {
   use: [
     react({
       html: {
-        title: 'cosmos-neutrino-test'
+        title: 'cosmos-neutrino-test',
+        template: require.resolve('./src/template.ejs'),
       }
     }),
   ],
